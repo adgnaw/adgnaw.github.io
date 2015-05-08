@@ -1,0 +1,91 @@
+/*-- Horizontal Menu ----------------------------------------------*/
+#navlist
+{
+	/* set proper size */
+    width: 100%;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	/* border-bottom: medium solid #000; */
+	/* border-top: medium solid #000; */
+	/* border-left: medium solid #000; */
+	/* border-right: medium solid #000; */
+	font-size: large;
+	background: #993333;
+}
+
+#navlist ul, #navlist li
+{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	color: #bbbbbb;
+}
+
+#navlist a:link, #navlist a:visited
+{
+	float: left;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 10px 4px 10px;
+	text-decoration: none;
+	color: #bbbbbb;
+}
+
+#navlist a:link#current, #navlist a:visited#current
+{
+	border-bottom: thick solid #fff;
+	padding-bottom: 0.1%;
+	background: transparent;
+	color: #fff;
+}
+
+#navlist a:hover 
+{ 
+	/* padding-bottom: 2px; */
+	padding-bottom: 0.1%;
+	border-bottom: thick solid #dddddd;
+	/* color: #bbbbbb; */
+	color: #dddddd; 
+}
+
+/*-- Vertical Menu ----------------------------------------------*/
+#menucontainer {
+    float: left;
+    width: auto;
+    padding-left: 0;
+    clear: both;
+}
+
+#vmenu li {
+    display: inline;
+}
+
+#vmenu {
+    padding-left: 0;
+	border-style: none;
+	border-width: 1px;
+	list-style-type: none;
+}
+	
+#vmenu li a {
+  	height: 24px;
+	text-decoration: underline;
+	color: #993333;
+}	
+	
+#vmenu li a:link, #vmenu li a:visited {
+	color: #993333;
+	/* background: */
+	padding: 8px 0 0 8px;
+}
+	
+#vmenu li a:hover {
+	color: #FFFFFF;
+	/* background:  */
+	padding: 8px 0 0 8px;
+	text-decoration: none;
+}
+	

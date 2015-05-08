@@ -1,0 +1,260 @@
+/* color specs:
+ *  dark red: 993333
+ *  red: 990000
+ *  brown: 564232
+ *  grary: 666666
+ *  black: 000000
+ *  purple: 4b4996
+ */
+
+body
+{
+    background:black;
+    color: #cccccc;
+    width: 80%;
+    min-width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Headers */
+h1{
+    font-size: xx-large;
+    color: #993333;
+    background-color: transparent;
+}
+h2{
+    padding: 4px;
+    font-size: x-large;
+    color: #993333;
+    background-color: #222222;
+}
+h3{
+    font-size: large;
+    color: #9999FF;
+    background-color: transparent;
+}
+
+/* Fonts */
+large {
+    font-size: x-large;
+    background-color: transparent;
+}
+
+em {
+    font-size: x-large;
+    font-style: italic;
+    color: #993333;
+}
+
+.comment {
+    font-style: italic;
+    color: #993333;
+}
+
+.title {
+    font-weight: bold;
+    color: #993333;
+}
+
+acronym, .titleTip {
+  border-bottom: 1px dotted;
+  color: #993333;
+  cursor: help;
+}
+
+/* DIVs */
+#container
+{
+    width: 1000px;
+    /* min-width: 800px; */
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_main
+{
+    position:relative;
+    width:100%;
+    float:left;
+    overflow: auto;
+    clear: both;
+}
+
+#content_leftside 
+{
+    position:relative;
+    width:auto;
+    float:left;
+    padding: 15px;
+    overflow: auto;
+}
+
+#content_rightside 
+{
+    position:relative;
+    float:right;
+    padding-left: 30px;
+    width:auto;
+    overflow: auto;
+}
+
+.subcontent {
+    position:relative;
+    clear:both;
+    overflow: auto;
+    /* size setting */
+    width:95%;
+    min-width:400px;
+    margin:0px 10px 10px 10px;
+    /* text setting */
+    font-size: medium;
+    text-align: justify;
+}
+
+#footer 
+{
+    position:relative; 
+    clear: both;
+    top: 5px;
+    /* size setting */
+    width: 100%;
+    padding-top: 10px;
+    /*
+    /* color setting */
+    background: transparent;
+    color: gray;
+    /* text setting */
+    font-size:  small;
+    text-align: right;
+    font-style: italic;
+    /* border setting */
+    border-top-width:1px;
+    border-style:dashed;
+    border-right-width:0px;
+    border-bottom-width:0px;
+    border-left-width:0px;
+    /*
+    border-color:#888888;
+    */
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.15;
+    position: relative;
+    color: #dddddd;
+}
+
+
+/* Hyperlink formats */
+a {
+    /* font-weight: bold; */
+    background: none;
+    background-color: transparent;
+    color: #993333;
+    text-decoration: underline;
+}
+a:link {
+    background: none;
+    background-color: transparent;
+}
+
+a:visited {
+    color:#4e4724;
+}
+a:hover {
+    /* font-weight: bold; */
+    color:white; 
+    background:#993333; 
+    text-decoration: underline;
+}
+a.anchor {
+    text-decoration: none;
+}
+a.regular {
+    background: none;
+}
+a.lessvisible {
+    background: none;
+    font-size: x-small; 
+    color: #999999;
+}
+
+/* Tables */
+td.year {
+    font-weight: bold;
+    font-size: large; 
+    color: #993333;
+}
+td.semester {
+    font-size: large; 
+    color: #564221;
+}
+tr.ta {
+    /* color: yellow; */
+    color: #91813f;
+}
+
+table.courses { 
+    width: 100%;
+}
+
+table.courses td { 
+	padding-top:3px; 
+	padding-right:12px; 
+	padding-bottom:3px; 
+    text-align:left;
+}
+
+table.materials { 
+    padding-left: 10px;
+}
+
+
+/* style for text */
+.emph { 
+    color: #91813f;
+}
+
+/* style for publications */
+.me { 
+    color: white;
+}
+.t { 
+    /* font-weight: bold; */
+    /* color: #f57900; */
+    /* color: #754737; */
+    color: #91813f;
+}
+.j { 
+    font-style: italic; 
+    color: #3366ee; 
+    /* color: #599c9a; */
+}
+.conf { 
+    font-style: italic; 
+    /* color: #3366ee; */
+    color: #599c9a;
+}
+.authorme { 
+    /* color: #3366ee; */
+    color: #ffffff;
+}
+.copyrighttext { 
+    font-size: small; 
+    color: #aaaaaa; 
+}
+
+/* Lists */
+ul ul
+{
+    color: #564232;
+}
+
+/* Special */
+span.noshow { display:none; }
+
